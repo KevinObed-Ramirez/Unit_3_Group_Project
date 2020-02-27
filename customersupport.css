@@ -1,10 +1,8 @@
-@charset "utf-8";
-
 html{
-    background: linear-gradient(rgb(255, 199, 131), rgb(255, 217, 171), white);
-    background-attachment: fixed;
+background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 }
- header{
+header{
     background: transparent;
  }
 div#bar{
@@ -191,6 +189,3 @@ section#navicon{
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
