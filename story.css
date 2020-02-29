@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 html{
-    background: rgb(20,56,198);
-    background: linear-gradient(90deg, rgba(20,56,198,1) 0%, rgba(121,9,117,1) 53%, rgba(55,120,230,1) 100%);
+    background: rgb(8,199,104);
+background: linear-gradient(90deg, rgba(8,199,104,1) 0%, rgba(82,114,182,1) 50%, rgba(82,70,252,1) 100%);
+
+}
+body{
+    font-family: 'Roboto Condensed' ;
+    text-align: center;
+    font-size: 2.2em;
 }
 h1{
     color: white;
+    text-align: center;
+    font-size:50px ;
+    font-family: 'Roboto Condensed' ;
 }
 article {
     display: block;
@@ -12,18 +22,20 @@ article {
 P{
     font-size: 30px;
     text-align: center;
+    font-family: 'Roboto Condensed' ;
 }
 img{
     float: left;
     height: 200px;
     width: 200px;
+    border: solid black 5px;
 }
 img#logo{
     float: right;
     height: 200px;
     width: 200px;
     position: relative;
-    transform: translateY(-140px);
+    transform: translateY(20px);
 }
 #buttons{
     display: flex;

@@ -1,7 +1,6 @@
 html{
-    background: url('https://cdn.britannica.com/82/682-004-5AC19A71/Flag-France.jpg');
-    background-attachment: fixed;
-    background-size: 100%;
+    background: rgb(25,189,178);
+    background: linear-gradient(80deg, rgba(25,189,178,1) 0%, rgba(135,39,215,1) 47%, rgba(39,104,181,1) 100%);
 }
 div#theme{
     background: rgba(255, 255, 255, .5);
@@ -15,20 +14,39 @@ p{
     font-size: 25px;
 }
 button#eng:hover{
-    color: white;
-    background-color: red;
+    color: black;
+    background: url('https://www.onlinestores.com/flagdetective/images/download/united-states-of-america-hi.jpg') no-repeat;
+    background-size: 100%; 
+    transition: .5s;
+    transform: scale(1.5);
+    font-size: 40px;
+    border: 3px 3px  ;
 }
 button#spa:hover{
-    color: black;
-    background-color: yellow;
+    color: white;
+    font-size: 30px ;
+    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/1200px-Flag_of_Spain.svg.png') no-repeat;
+    background-size: 100%; 
+    transition: .5s;
+    transform: scale(1.5);
+    
 }
 button#fre:hover{
-    color: white;
-    background-color: blue;
+    color: black;
+    background: url('https://cdn.britannica.com/82/682-004-5AC19A71/Flag-France.jpg');
+    background-size: 100%;
+    transition: .5s;
+    transform: scale(1.5);
+    font-size:  30px ;
 }
 button#ire:hover{
-    color: white;
+    color: black;
+    background: url('https://cdn.shopify.com/s/files/1/0707/3783/products/ireland-flag_grande.jpg?v=1418057890');
     background-color: green;
+    background-size: 100%; 
+    transition: .5s;
+    transform: scale(1.5);
+    font-size: 30px;
 }
 button{
 text-align: center;

@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 html{
     background: rgb(208,38,200);
     background: linear-gradient(90deg, rgba(208,38,200,1) 0%, rgba(18,244,228,1) 68%, rgba(75,217,48,1) 100%);
 }
-
+body{
+    font-family: 'Roboto Condensed' ;
+    text-align: center;
+    font-size: 2.2em;
+}
 h1{
     color: white;
+    text-align: center;
+    font-size: 50px ;
+    font-family: 'Roboto Condensed' ;
 }
 article {
     display: block;
@@ -13,18 +21,20 @@ article {
 P{
     font-size: 30px;
     text-align: center;
+    font-family: 'Roboto Condensed' ;
 }
 img{
     float: left;
     height: 200px;
     width: 200px;
+    border: solid black 5px;
 }
 img#logo{
     float: right;
     height: 200px;
     width: 200px;
     position: relative;
-    transform: translateY(-140px);
+    transform: translateY(20px);
 }
 #buttons{
     display: flex;
