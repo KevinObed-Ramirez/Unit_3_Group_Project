@@ -13,11 +13,11 @@ body{
 /* footer styles */
 #word{
     background-color:#FEF1EB;
-    height: 30px;
+    height: 40px;
     position: fixed;
     bottom: 0;
     background-color: cornsilk;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 5px 20px 5px;
     width: 100%;
 }
 #table{
@@ -28,10 +28,12 @@ body{
 
 ul#horizontalList{
     list-style: none;
+    padding-bottom: 20px;
     
 } 
 ul#horizontalList li{
     
     display: inline;
     margin: 10px 100px 100px 10px;
+    padding-bottom: 20px;
 }
