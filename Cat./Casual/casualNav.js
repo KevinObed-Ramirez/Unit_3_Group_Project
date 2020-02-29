@@ -36,21 +36,3 @@ function showSlides(n) {
   changeBG(n);
 }
 
-//swamps style sheet
-
-
-function changeBG(n){
-  if(n === 1){
-    document.getElementById("pagestyle").setAttribute("href", "casualSty.css")
-  }else if(n === 2){
-    document.getElementById("pagestyle").setAttribute("href", "casualSty2.css")
-  }else if(n === 0){
-    document.getElementById("pagestyle").setAttribute("href", "casualSty4.css")
-  }else if(n === 5){
-    document.getElementById("pagestyle").setAttribute("href", "casualSty.css")
-  }else if(n === 3){
-    document.getElementById("pagestyle").setAttribute("href", "casualSty3.css")
-  }else{
-    document.getElementById("pagestyle").setAttribute("href", "casualSty4.css")
-  }
-}

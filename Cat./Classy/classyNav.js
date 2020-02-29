@@ -40,18 +40,3 @@ dots[slideIndex-1].className += " active";
 changeBG(n);
 }
 
-function changeBG(n){
-if(n==1){
-  document.getElementById("pagestyles").setAttribute("href", "classySty.css")
-}else if(n==2){
-  document.getElementById("pagestyles").setAttribute("href", "classySty2.css")
-}else if(n==0){
-  document.getElementById("pagestyles").setAttribute("href", "classySty4.css")
-}else if(n==5){
-  document.getElementById("pagestyles").setAttribute("href", "classySty.css")
-}else if(n==3){
-  document.getElementById("pagestyles").setAttribute("href", "classySty3.css")
-}else{
-  document.getElementById("pagestyles").setAttribute("href", "classySty4.css")
-}
-}
