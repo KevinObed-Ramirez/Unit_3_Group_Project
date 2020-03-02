@@ -39,7 +39,7 @@ section#homeText{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 17%;
+  width: 18%;
   display: fixed;
 }
 
@@ -64,8 +64,10 @@ section#homeText{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background: linear-gradient(311deg, #D4AF37,rgb(219, 184, 68),#eaeaea, rgb(219, 184, 68), #D4AF37);
+  color: black;
 }
+
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
